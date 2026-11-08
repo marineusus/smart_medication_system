@@ -1,0 +1,9 @@
+* text=auto
+*.md text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# Preserve the supplied firmware and reference materials byte for byte.
+*.ino -text
+*.pdf binary
+*.jpg binary

@@ -1,0 +1,32 @@
+# Arduino build outputs
+build/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Runtime records copied from an SD card
+Morning.txt
+Noon.txt
+Evening.txt
+Morning_result.txt
+Noon_result.txt
+Evening_result.txt
+*_result_tmp.txt
+baseline.txt
